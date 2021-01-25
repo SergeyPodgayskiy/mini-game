@@ -6,7 +6,8 @@ const PageContainer = styled.div`
   padding-top: 100px;
   height: 100vh;
   text-align: center;
-  @media (min-width: 768px) {
+
+  @media (min-width: 600px) {
     max-width: 600px;
     margin: auto;
   }

@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import { FunctionComponent } from 'react';
 import { useDispatch } from 'react-redux';
 
 import { setNextScene, useRootStateSelector } from '../../store';

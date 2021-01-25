@@ -7,6 +7,7 @@ export const theme: DefaultTheme = {
     red: '#df273e',
     blue: '#3288c4',
     altoGrey: '#d8d8d8',
+    white: '#fff',
   },
   fontColor: {
     primary: '#fff',
@@ -17,9 +18,9 @@ export const theme: DefaultTheme = {
     xs: '.8rem',
     sm: '.875rem',
     md: '1rem',
-    lg: '1.025rem',
-    xl: '1.1rem',
-    xxl: '1.25rem',
+    lg: '1.2rem',
+    xl: '1.4rem',
+    xxl: '1.8rem',
   },
   fontWeight: {
     light: 300,

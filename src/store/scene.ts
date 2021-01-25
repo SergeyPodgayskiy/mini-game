@@ -1,6 +1,6 @@
 import { findLastIndex, first, keys } from 'lodash';
 
-import { Action } from './store.types';
+import { Action } from './store';
 import Scene from '../scenes/scene/scene.enum';
 
 // Declarations

@@ -2,9 +2,9 @@
 export type GameRound = number[];
 
 const gameRounds: GameRound[] = [
-  [10, 20],
-  [50, 100],
-  [150, 200],
+  [0, 5],
+  [10, 15],
+  [20, 30],
 ];
 
 export default gameRounds;

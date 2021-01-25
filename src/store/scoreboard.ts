@@ -1,4 +1,4 @@
-import { Action } from './store.types';
+import { Action } from './store';
 
 // Declarations
 export interface ScoreboardState {
