@@ -12,15 +12,16 @@ import { themeSpaces } from '../styles/theme/theme';
 // Flip speed in seconds
 const flipSpeedFrontToBackInSeconds = 1;
 
-// Shuffled Cards
-const rounds = map(gameRounds, (cards) => shuffle(cards));
+
 
 // Component
 const Game: FunctionComponent<SceneProps> = ({ switchToNextScene }) => {
   const dispatch = useDispatch();
   const [round, setRound] = useState<GameRound>(first(rounds));
   const [revealCards, setRevealCards] = useState<boolean>(false);
-
+  // Round with shuffled cards
+  const rounds = map(gameRounds, (cards) => shuffle(cards));
+  
   const handlePickCard = (cardValue) => {
     if (!revealCards) {
       dispatch(addPointsToScore(cardValue));
